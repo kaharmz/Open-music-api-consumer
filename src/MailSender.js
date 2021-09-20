@@ -13,7 +13,7 @@ class MailSender {
     });
   }
 
-  senMail(targetEmail, content) {
+  sendMail(targetEmail, content) {
     const message = {
       from: 'Open Music Api',
       to: targetEmail,
